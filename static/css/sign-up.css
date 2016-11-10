@@ -53,17 +53,14 @@
 
     #input-number{
         height: 77px;
-    }
-
-    .cont{
-        position: relative;
+        font-size: 40px;
     }
 
     footer{
         background-color: #FA66B0;
         font-size: 85px;
         color: white;
-        padding: 3%;
+        padding: 3% 41%;
         position: absolute;
         bottom: 0;
     }
