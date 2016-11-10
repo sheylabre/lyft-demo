@@ -55,9 +55,15 @@
         height: 77px;
     }
 
+    .cont{
+        position: relative;
+    }
+
     footer{
         background-color: #FA66B0;
         font-size: 85px;
         color: white;
         padding: 3%;
+        position: absolute;
+        bottom: 0;
     }
