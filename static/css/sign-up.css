@@ -2,6 +2,7 @@
     body.page-wrapper {
         width: 100%;
         height: 100%;
+        text-align: center;
     }
 
      body.is-loading {
@@ -26,9 +27,17 @@
 
     .txt-join{
         text-align: center;
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .hr{
         border: 1px solid black;
+    }
+
+    .input-num{
+        border: 1px solid black;
+        width: 50%;
+        height: 65px;
+        margin: 5% 0;
+        border-radius: 0 10px 10px 0;
     }
