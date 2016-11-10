@@ -34,16 +34,30 @@
         border: 1px solid black;
     }
 
-    .input-num{
-        border: 1px solid black;
-        width: 50%;
-        height: 65px;
-        margin: 5% 0;
-        border-radius: 0 10px 10px 0;
-        font-size: 40px;
-    }
-
     .icono-regreso{
         font-size: 50px;
         margin: 0 220px 0 40px ;
+    }
+
+    .conten-input-number{
+        margin: 5%;
+    }
+
+    #button-bandera{
+        padding: 20%;
+    }
+
+    .img-bandera{
+        width: 50px;
+    }
+
+    #input-number{
+        height: 77px;
+    }
+
+    footer{
+        background-color: #FA66B0;
+        font-size: 85px;
+        color: white;
+        padding: 3%;
     }

@@ -17,13 +17,22 @@
     <hr class="hr">
     <div class="container">
         <div class="row">
-            <form>
-                <input class="input-num" type=“tel” name=“telefono”>
-            </form>
+            <div class="input-group conten-input-number">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="button-bandera"><img src="static/img/bandera_de_peru.png" class="img-bandera"> <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                        </ul>
+                </div><!-- /btn-group -->
+                <input type="text" id="input-number" class="form-control" aria-label="...">
+            </div>
             <p class="txt-join">We'll send a text to verify your phone</p>
         </div>
     </div>
-    </div>
+    <footer>
+        <p >Next</p>
+    </footer>
     <script type="text/javascript" src="static/jquery/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript" src="static/jquery/jquery.js"></script>
