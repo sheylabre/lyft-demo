@@ -1,0 +1,59 @@
+/*Estructura de página*/
+    body.page-wrapper {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+     body.is-loading {
+        overflow: hidden;
+    }
+
+/*Pagina de Sign Up*/
+    .txt-verify{
+        font-weight: bold;
+        font-size: 65px;
+        text-align: center;
+        margin: 10% -15% 5% -37%;
+    }
+
+    .txt-code{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .hr{
+        border: 1px solid black;
+    }
+
+    .icono-regreso{
+        font-size: 50px;
+        margin: 0 95px 0 40px ;
+    }
+
+    #button-resend{
+        font-size: 70px;
+        padding: 5%;
+        margin: 5%;
+    }
+
+    .number-verify{
+        height: 100px;
+        width: 70px;
+        margin: 5%;
+        font-size: 45px;
+        border-bottom: 5px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        text-align: center;
+    }
+
+    footer{
+        background-color: #FA66B0;
+        font-size: 85px;
+        color: white;
+        padding: 3% 41%;
+        position: absolute;
+        bottom: 0;
+    }
