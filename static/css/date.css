@@ -41,20 +41,45 @@
         width: 42%;
         font-size: 45px;
         border: none;
-        text-align: center;
+
     }
 
     .number-verify2{
         width: 85%;
+        height: 100px;
         font-size: 45px;
         border: none
     }
 
-    .icono-email{
+    .icono-user-email{
         font-size: 65px;
-        margin: 3% 0 ;
+        margin: 3% 3% ;
+    }
+/* Butoon Checkbox*/
+
+
+    input[type=checkbox] + label {
+        color: gray;
+        font-size: 37px;
+        margin-left: 3%;
     }
 
+    input[type=checkbox]:checked + label {
+        color: black;
+        font-style: normal;
+    }
+
+    .txt-blue{
+        color: blue;
+    }
+
+    #ossm{
+        width: 36px;
+        height: 34px;
+        margin-top: 5%;
+    }
+
+/* Fin button checkbox*/
     footer{
         background-color: #FA66B0;
         font-size: 85px;
@@ -63,3 +88,4 @@
         position: absolute;
         bottom: 0;
     }
+
