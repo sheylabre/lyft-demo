@@ -17,7 +17,7 @@
     <hr class="hr">
     <div class="container">
         <div class="row">
-            <div class="input-group conten-input-number">
+            <div class="input-group conten-input-number" id="cont-input">
                 <div class="input-group-btn">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="button-bandera"><img src="static/img/bandera_de_peru.png" class="img-bandera"> <span class="caret"></span></button>
                         <ul class="dropdown-menu">
@@ -25,18 +25,21 @@
                             <li><a href="#">Another action</a></li>
                         </ul>
                 </div><!-- /btn-group -->
-                <input type="text" id="input-number" class="form-control" aria-label="...">
+                <form name="formulario">
+                    <input type="text" id="input-number" class="form-control" name="telefono" maxlength="9" >
+                    <span id="mensaje-valida"></span>
+                </form>
             </div>
             <p class="txt-join">We'll send a text to verify your phone</p>
         </div>
     </div>
-    <a href="verify-phone.html" title="button-next">
-        <footer>
-            <p >Next</p>
-        </footer>
-    </a>
+    <footer >
+        <a href="verify-phone.html" title="button-next">
+            <button id="ft-sign" class="footer" type="button">Next</button>
+        </a>
+    </footer>
     <script type="text/javascript" src="static/jquery/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="static/jquery/jquery.js"></script>
+    <script type="text/javascript" src="static/jquery/sign-up.js"></script>
 </body>
 </html>

@@ -44,7 +44,7 @@
     }
 
     #button-bandera{
-        padding: 21%;
+        padding: 22%;
     }
 
     .img-bandera{
@@ -56,11 +56,13 @@
         font-size: 40px;
     }
 
-    footer{
+    .footer{
         background-color: #FA66B0;
         font-size: 85px;
         color: white;
-        padding: 3% 41%;
+        width: 100%;
+        padding: 5% 0;
         position: absolute;
         bottom: 0;
+        left: 0;
     }
