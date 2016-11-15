@@ -62,3 +62,7 @@ function initAutocomplete() {
   });
   // [END region_getplaces]
 }
+
+$("#icono-user, #profile-userpic").click(function(){
+  $("#profile").slideToggle();
+});

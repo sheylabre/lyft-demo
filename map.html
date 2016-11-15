@@ -9,7 +9,67 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 </head>
 <body class="page-wrapper is-loading">
-    <input id="pac-input" class="controls" type="text" placeholder="Search Box" >
+    <div class="glyphicon glyphicon-user" id="icono-user"></div>
+    <div class="container">
+    <div class="row profile" id="profile">
+            <div class="profile-sidebar">
+                <!-- SIDEBAR USERPIC -->
+                <div class="profile-userpic"  id="profile-userpic">
+                    <div class="glyphicon glyphicon-remove" id="icono-cancel"></div>
+                    <a href="registre.html"><img src="static/img/women.png" class="img-responsive" alt="user"></a>
+                </div>
+                <!-- END SIDEBAR USERPIC -->
+                <!-- SIDEBAR USER TITLE -->
+                <div class="profile-usertitle">
+                    <div class="profile-usertitle-name">
+                        Sheyla Breña
+                    </div>
+                    <div class="profile-usertitle-job">
+                        View prolife
+                    </div>
+                </div>
+                <!-- END SIDEBAR USER TITLE -->
+                <!-- SIDEBAR MENU -->
+                <div class="profile-usermenu">
+                    <ul class="nav">
+                        <li>
+                            <a href="#">
+                            <i class="glyphicon glyphicon-home"></i>
+                            Home</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <i class="glyphicon glyphicon-gift"></i>
+                            Free Rides </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                            <i class="glyphicon glyphicon-time"></i>
+                            Ride history </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <i class="glyphicon glyphicon-credit-card"></i>
+                            Payment </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <i class="glyphicon glyphicon-question-sign"></i>
+                            Help </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <i class="glyphicon glyphicon-cog"></i>
+                            Settings </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END MENU -->
+            </div>
+    </div>
+    </div>
+
+    <input id="pac-input" class="controls" type="text" placeholder="place name" >
     <button id="button-set" class="btn btn-primary btn-lg" type="button">Set Pickup</button>
     <div id="map"></div>
 
