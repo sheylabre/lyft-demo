@@ -26,18 +26,33 @@ $(document).ready(function(){
             return false;
         }
     };
-    /* Número Rndom*/
-    $("#ft-sign, #button-resend").click(function(){
-        var x = Math.floor((Math.random() * 9999) + 1);
-        alert( x );
-    });
-
     /*Almacenar número */
-    $("#numeroTelefonico").text(localStorage.getItem("inputN"));
+    $("#numeroTelefonico").text(localStorage.getItem("inputTel"));
     $("#ft-sign").click(function(){
         var input = $("#input-number").val();
-        window.localStorage.setItem("inputN", input);
+        window.localStorage.setItem("inputTel", input);
     });
+
+    /* Número Rndom*/
+    $("#ft-sign, #button-resend").click(function(){
+        var numRandom = Math.floor((Math.random() * 9999) + 1);
+        alert( numRandom );
+    });
+
+    /* Verificar núm=ero random*/
+    var traerRandom = window.localStorage.getItem("alerRan");
+        $("#ft-sign1").click(function() {
+     var unir = $("#number-verify1").val().toString() + $("#number-verify2").val().toString() + $("#number-verify3").val().toString() + $("#number-verify4").val().toString();
+            var guardarNUm = window.localStorage.setItem("alerRan", numRandom);
+            if( unir == traerRandom){
+                alert("salio :) ");
+                return true;
+            }
+            else {
+                return false;
+            }
+        });
+
 });
 
 

@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="static/css/verify-phone.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap/fonts">
 </head>
 <body class="page-wrapper is-loading">
     <div class="container">
@@ -17,21 +16,21 @@
     <hr class="hr">
     <div class="container">
         <div class="row">
-            <input type="" name="number-verify1" class="number-verify" maxlength="1">
-            <input type="" name="number-verify2" class="number-verify" maxlength="1">
-            <input type="" name="number-verify3" class="number-verify" maxlength="1">
-            <input type="" name="number-verify4" class="number-verify" maxlength="1">
+            <input id="number-verify1" class="number-verify" maxlength="1">
+            <input id="number-verify2" class="number-verify" maxlength="1">
+            <input id="number-verify3" class="number-verify" maxlength="1">
+            <input id="number-verify4" class="number-verify" maxlength="1">
             <p class="txt-code">Enter the code sent to +51 <span id="numeroTelefonico"></span></p>
             <div class="btn-group" role="group">
                 <button type="button" class="btn btn-default" id="button-resend">Resend Code</button>
             </div>
         </div>
     </div>
-    <a href="date.html" title="button-next">
-        <footer>
-            <p >Next</p>
-        </footer>
-    </a>
+    <footer >
+        <a href="date.html" title="button-next">
+            <button id="ft-sign1" class="footer" type="button">Next</button>
+        </a>
+    </footer>
     <script type="text/javascript" src="static/jquery/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript" src="static/jquery/sign-up.js"></script>
